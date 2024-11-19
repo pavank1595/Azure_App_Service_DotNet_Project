@@ -77,4 +77,5 @@ stages:
         deployToSlotOrASE: true
         ResourceGroupName: 'prkrtlapp_group'
         SlotName: 'production'
+        packageForLinux: "$(dotNetCodeLocation)/**/*.zip"
       
